@@ -1,0 +1,77 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#parallax {
+    background-image: url('../img/mar.jpg');
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sec-menu {
+    background-color: rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0px 10px 86px 30px rgba(0, 0, 0, .4);
+    -moz-box-shadow: 0px 10px 86px 30px rgba(0, 0, 0, .4);
+    box-shadow: 0px 10px 86px 30px rgba(0, 0, 0, .4);
+}
+
+#menu {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: #ffffff;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    transition: .3s;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.nav-item {
+    margin: 0 30px 0;
+}
+
+#sec-grafico {
+    /*    background-image: url('../img/mar.png');*/
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grafico-fundo {
+    padding: 100px 0;
+    background-color: #ffffff;
+    /*    background-color: rgba(255, 255, 255, .7);*/
+}
+
+.div-footer {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 10px 87px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 87px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 87px -9px rgba(0, 0, 0, 0.75);
+    z-index: 10000;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+p > span {
+    font-weight: 700;
+}
