@@ -45,17 +45,20 @@ body {
 }
 
 #sec-grafico {
-    /*    background-image: url('../img/mar.png');*/
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.grafico-fundo {
-    padding: 100px 0;
+.linha-grafico {
+    height: 90vh;
     background-color: #ffffff;
-    /*    background-color: rgba(255, 255, 255, .7);*/
+}
+
+.titulo{
+    margin-top: -30px;
+    margin-bottom: 100px;
 }
 
 .div-footer {
