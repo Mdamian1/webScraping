@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div id="parallax">
+    <div id="parallax" class="parallaxie">
         <header>
             <section id="sec-menu">
                 <div class="container-fluid">
@@ -24,17 +24,22 @@
                                 <div class="collapse navbar-collapse" id="menu">
                                     <ul class="navbar-nav">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Bootstrap</a>
+                                            <a class="nav-link" href="index.html">Bootstrap</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Materialize</a>
+                                            <a class="nav-link" href="materialize.html">Materialize</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Semantic UI</a>
+                                            <a class="nav-link" href="semantic_ui.html">Semantic UI</a>
                                         </li>
                                     </ul>
                                 </div>
                             </nav>
+                        </div>
+                        <div class="row justify-content-center align-items-center div-logo">
+                            <div class="logos"><img src="assets/img/logo-bc-branco.png" alt="Logo Balneário Camboriú"></div>
+                            <div class="logos"><img src="assets/img/logo-ifc-branco.png" alt="Logo IF Catarinense"></div>
+                            <div class="logos"><img src="assets/img/logo-tsi-branco.png" alt="Logo TSI"></div>
                         </div>
                     </div>
                 </div>
@@ -42,22 +47,24 @@
         </header>
     </div>
     <section id="sec-grafico">
-        <div class="container">
-            <div class="d-flex flex-column linha-grafico justify-content-center align-items-center">
-                <div class="col-md-8">
-                    <h3 class="text-center titulo">E.Coli NMP*/100ml</h3>
-                    <canvas id="grafico"></canvas>
+        <div class="container-fluid grafico-fundo">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h3 class="text-center mb-5">E.Coli NMP*/100ml</h3>
+                        <canvas id="grafico"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div id="parallax" class="d-flex justify-content-center align-items-center">
+    <div id="parallax" class="d-flex justify-content-center align-items-center parallaxie">
         <footer>
             <div class="container-fluid container-footer">
                 <div class="col-md-12 div-footer d-flex align-items-center">
                     <p>
-                        <span>Autores:</span> Emily Caroline da Silva Padilha & Matheus Damian Pereira
+                        <span>Autores:</span> Emily Caroline da Silva Padilha e Matheus Damian Pereira
                     </p>
                 </div>
             </div>
@@ -69,6 +76,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/parallaxie.js"></script>
 </body>
 
 </html>

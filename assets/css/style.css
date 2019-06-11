@@ -6,6 +6,27 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
+.nav {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.div-logo {
+    height: 218px;
+    display: flex;
+    justify-content: center;
+}
+
+.logos {
+    width: 200px;
+    height: 71px;
+    margin: 0 40px 0;
+}
+
 #parallax {
     background-image: url('../img/mar.jpg');
     height: 50vh;
@@ -17,9 +38,9 @@ body {
 
 #sec-menu {
     background-color: rgba(0, 0, 0, .3);
-    -webkit-box-shadow: 0px 10px 86px 30px rgba(0, 0, 0, .4);
-    -moz-box-shadow: 0px 10px 86px 30px rgba(0, 0, 0, .4);
-    box-shadow: 0px 10px 86px 30px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: 0px 10px 44px 41px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 10px 44px 41px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 44px 41px rgba(0, 0, 0, 0.3);
 }
 
 #menu {
@@ -27,8 +48,23 @@ body {
     font-size: 20px;
 }
 
+.menu-bg {
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+.column {
+    width: auto !important;
+}
+
+.item {
+    color: #fff !important;
+}
+
 .nav-link {
-    color: #ffffff;
+    color: #ffffff !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
 }
@@ -45,20 +81,17 @@ body {
 }
 
 #sec-grafico {
+    /*    background-image: url('../img/mar.png');*/
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.linha-grafico {
-    height: 90vh;
+.grafico-fundo {
+    padding: 100px 0;
     background-color: #ffffff;
-}
-
-.titulo{
-    margin-top: -30px;
-    margin-bottom: 100px;
+    /*    background-color: rgba(255, 255, 255, .7);*/
 }
 
 .div-footer {

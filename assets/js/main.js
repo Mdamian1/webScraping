@@ -4,6 +4,7 @@ var randomColorGenerator = function () {
 
 
 $(document).ready(function(){
+    $('.parallaxie').parallaxie();
     
     $.getJSON('meu_arquivo.json', function(data){
         var series = Array();
